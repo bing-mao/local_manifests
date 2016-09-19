@@ -1,9 +1,11 @@
+ clone from peyo-hd's local_manifests
+
 # Download Android source with patches(local_manifests)
  Refer to http://source.android.com/source/downloading.html
  $ repo init -u https://android.googlesource.com/platform/manifest -b android-7.0.0_r1
  $ cd .repo
- $ git clone https://github.com/peyo-hd/local_manifests -b nougat
+ $ git clone https://github.com/bing-mao/local_manifests -b nougat_mbing
  $ repo sync
 
 # Build for Raspberry Pi3
- See https://github.com/peyo-hd/device_brcm_rpi3
+ See https://github.com/bing-mao/device_brcm_rpi3
